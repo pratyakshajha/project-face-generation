@@ -12,8 +12,8 @@ The aim is to use generative adversarial networks to generate new images of face
 | Pre-processing Data | The function `get_dataloader` and `scale` is implemented |<ul><li>[x] </li></ul>|
 | Build the Adversarial Networks | Discriminator and Generator class is implemented correctly. Weight is initialized correctly. |<ul><li>[x] </li></ul>|
 | Optimization Strategy | `real_loss` and `fake_loss` functions implemented correctly and appropriate optimizers defined. |<ul><li>[x] </li></ul>|
-| Training and Results | Reasonable hyperparameters are selected for training and the model generates realistic faces. |<ul><li>[ ] </li></ul>|
-| Prepare report    | Refer the [rubrics](https://review.udacity.com/#!/rubrics/2261/view)  |<ul><li>[ ] </li></ul>|
+| Training and Results | Reasonable hyperparameters are selected for training and the model generates realistic faces. |<ul><li>[x] </li></ul>|
+| Prepare report    | Refer the [rubrics](https://review.udacity.com/#!/rubrics/2261/view)  |<ul><li>[x] </li></ul>|
 
 
 ### Suggestions
