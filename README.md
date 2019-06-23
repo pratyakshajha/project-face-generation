@@ -4,19 +4,10 @@ This repository hosts code used in fourth project on Generative Adversarial Netw
 
 The aim is to use generative adversarial networks to generate new images of faces.
 
-## Project To Do List
+## Getting started
+Open the `face_generation.ipynb` on a GPU enabled Python notebook environment, or Google colab (a link is directly on top in the notebook file). The notebook consists of further technical details. Run the notebook to generate your own unique and random face images.
 
-### Rubrics
-| Criteria                                           | Specifications                                                                                                                                                                                        | Finished |
-|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Pre-processing Data | The function `get_dataloader` and `scale` is implemented |<ul><li>[x] </li></ul>|
-| Build the Adversarial Networks | Discriminator and Generator class is implemented correctly. Weight is initialized correctly. |<ul><li>[x] </li></ul>|
-| Optimization Strategy | `real_loss` and `fake_loss` functions implemented correctly and appropriate optimizers defined. |<ul><li>[x] </li></ul>|
-| Training and Results | Reasonable hyperparameters are selected for training and the model generates realistic faces. |<ul><li>[x] </li></ul>|
-| Prepare report    | Refer the [rubrics](https://review.udacity.com/#!/rubrics/2261/view)  |<ul><li>[x] </li></ul>|
-
-
-### Suggestions
+### Further improvements
 - [ ] Create a deeper model and use it to generate larger (say 128x128) images of faces.
 - [ ] Read existing literature to see if using padding and normalization techniques generates higher-resolution images.
 - [ ] Implement a learning rate that evolves over time as they did in this [CycleGAN Github repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
